@@ -1,0 +1,94 @@
+.leftSide {
+    width: 30%;
+    position: absolute;
+}
+
+.contacts {
+    overflow: auto;
+    height: calc(100vh - 134px);
+}
+
+/* -----------------left header----------------- */
+
+.leftHeader {
+    background-color: #202c33;
+    width: 92%;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.profileDiv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.profilePic {
+    border-radius: 50%;
+    height: 45px;
+    cursor: pointer;
+}
+
+.iconDiv {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header-icon {
+    color: #aebac1;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+/* -----------------search bar----------------- */
+
+.searchBar {
+    background-color: #202c33;
+    border: none;
+    color: #8696a0;
+    height: 35px;
+    border-radius: 8px;
+    margin: 12px;
+    width: 84%;
+    padding: 0 5%;
+}
+
+
+/* -----------------contact----------------- */
+
+.contactDiv {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 69px;
+
+}
+
+.nameDiv {
+    color: #E9EDEF;
+    margin-left: 25px;
+    border-bottom: 1px solid #222d34;
+    width: 100%;
+}
+
+.name {
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contactPic {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 17px;
+}
+
+.lastMsg {
+    margin-bottom: 15px;
+}

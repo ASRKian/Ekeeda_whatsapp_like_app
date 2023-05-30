@@ -1,0 +1,116 @@
+.rightHome {
+    display: flex;
+    justify-content: center;
+    height: 94vh;
+    align-items: center;
+    background-color: #244242;
+}
+
+.rightSide {
+    position: relative;
+    height: 94vh;
+    border-left: 1px solid rgb(134 150 160 / 15%);
+    left: 31%;
+    width: 69%;
+    color: wheat;
+}
+
+/* ---------------------Right Header---------------------- */
+
+.headerProfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202c33;
+    height: 59px;
+    padding: 0 16px;
+}
+
+.profile2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.profilePic2 {
+    border-radius: 50%;
+    height: 45px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.rightIcons {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.right-side-icon {
+    margin: 0 20px;
+    font-size: 1.25rem;
+    color: #aebac1;
+}
+
+/* ---------------------Message Display---------------------- */
+
+.allMsg {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 149px);
+    justify-content: flex-start;
+    overflow: auto;
+}
+
+/* ---------------------Received Message---------------------- */
+
+.rcvMsg {
+    margin: 5px 65px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rcvMsgIcon {
+    font-size: 40px;
+    color: #202c33;
+    margin-right: 10px;
+}
+
+/* ---------------------Sent Message---------------------- */
+
+.sentMsg {
+    margin: 5px 65px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sentMsgIcon {
+    font-size: 40px;
+    color: #005c4b;
+    margin-left: 10px;
+}
+
+/* ---------------------Sent Message---------------------- */
+
+.msgInputDiv {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(32 44 51);
+    padding: 5px 16px;
+}
+
+.msgInput {
+    width: 85%;
+    height: 22px;
+    background-color: rgb(42 57 66);
+    border: none;
+    border-radius: 10px;
+    margin: 5px 8px;
+    padding: 9px 12px;
+}
+
+.inputIcon {
+    margin: 0 20px;
+    font-size: 1.25rem;
+    color: #aebac1;
+}
